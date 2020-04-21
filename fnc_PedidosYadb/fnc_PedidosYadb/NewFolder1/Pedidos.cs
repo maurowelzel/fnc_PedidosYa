@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace fnc_PedidosYadb.NewFolder1
-{
+
     using Newtonsoft.Json;
-   public class Pedido
+   public class Pedidos
     {
         [JsonProperty("idpedido")]
         public string Idpedido { get; set; }
@@ -23,5 +22,5 @@ namespace fnc_PedidosYadb.NewFolder1
 
         [JsonProperty("idempleado")]
         public string Idempleado { get; set; }
-    }
+    
 }

@@ -1,7 +1,6 @@
 ﻿
 
-namespace fnc_PedidosYadb.NewFolder1
-{
+
     using Newtonsoft.Json;
     public class Estado
     {
@@ -10,5 +9,5 @@ namespace fnc_PedidosYadb.NewFolder1
         [JsonProperty("estado")]
         public string EstadoCs { get; set; }
        
-    }
+    
 }

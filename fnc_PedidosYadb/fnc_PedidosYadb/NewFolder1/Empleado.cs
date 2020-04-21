@@ -1,6 +1,5 @@
 ﻿
-namespace fnc_PedidosYadb.NewFolder1
-{
+
     using Newtonsoft.Json;
     public class Empleado
     {
@@ -13,5 +12,5 @@ namespace fnc_PedidosYadb.NewFolder1
         [JsonProperty("idestado")]
         public string Idestado { get; set; }
        
-    }
+    
 }
