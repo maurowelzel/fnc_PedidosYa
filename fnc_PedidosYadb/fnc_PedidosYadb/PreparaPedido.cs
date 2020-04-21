@@ -10,9 +10,9 @@ using Newtonsoft.Json;
 
 namespace fnc_PedidosYadb
 {
-    public static class Function1
+    public static class PreparaPedido
     {
-        [FunctionName("Function1")]
+        [FunctionName(nameof(PreparaPedido))]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
